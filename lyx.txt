@@ -1,0 +1,9 @@
+1. Find the path that you store the cls files forLyx: Tools -> Tex Information -> Show path
+
+2. Copy the .cls file into the path. (often under the "latex" folder)
+
+3. Open a command window, type "texhash"
+
+4. Open Lyx, Reconfigure
+
+5. Restart Lyx
