@@ -1,0 +1,77 @@
+References:
+
+http://www.cepukas.net/2012/05/14/zenburn-color-scheme-with-putty/
+http://looselytyped.blogspot.com/2013/02/zenburn-pleasant-color-scheme-for-putty.html
+
+
+Method:
+
+If you’ve been having trouble finding the awesome zenburn color scheme settings for PuTTY, like I was, then look no further!
+
+Well, it’s not official or anything, and I tweaked it to suite my needs, but give it a shot. It’s working for me.
+
+Save the following text to a file named “zenburn_putty.reg” using notepad! It’s important that you use notepad since it seems to be one of the only programs out there that saves files in the right encoding for windows registry files. Change the token “PUTTY_PROFILE_NAME” to the name of the PuTTY profile you want to apply the zenburn color scheme to (the name shows up in your putty window, just give it a random name is also fine).
+
+Once you have changed the PuTTY profile name and the file is saved (using notepad!), right click the file and select “merge” from the context menu. If all went according to plan, zenburn will now be your PuTTY color scheme.
+
+
+
+
+
+
+
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\SimonTatham\PuTTY\Sessions\PUTTY_PROFILE_NAME]
+
+"Colour0"="220,220,204"
+"Colour1"="220,220,204"
+"Colour2"="58,58,58"
+"Colour3"="58,58,58"
+"Colour4"="0,13,24"
+"Colour5"="143,175,159"
+"Colour6"="0,0,0"
+"Colour7"="85,85,85"
+"Colour8"="215,135,135"
+"Colour9"="215,135,135"
+"Colour10"="160,192,160"
+"Colour11"="160,192,160"
+"Colour12"="255,255,135"
+"Colour13"="255,255,135"
+"Colour14"="101,121,142"
+"Colour15"="101,121,142"
+"Colour16"="241,140,150"
+"Colour17"="241,140,150"
+"Colour18"="140,208,211"
+"Colour19"="140,208,211"
+"Colour20"="255,255,255"
+"Colour21"="255,255,255"
+
+
+
+
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\SimonTatham\PuTTY\Sessions\Zenburn]
+"Colour0"="255,255,255"
+"Colour1"="255,255,255"
+"Colour2"="51,51,51"
+"Colour3"="85,85,85"
+"Colour4"="0,0,0"
+"Colour5"="0,255,0"
+"Colour6"="77,77,77"
+"Colour7"="85,85,85"
+"Colour8"="187,0,0"
+"Colour9"="255,85,85"
+"Colour10"="152,251,152"
+"Colour11"="85,255,85"
+"Colour12"="240,230,140"
+"Colour13"="255,255,85"
+"Colour14"="150,133,63"
+"Colour15"="135,206,235"
+"Colour16"="255,222,173"
+"Colour17"="255,85,255"
+"Colour18"="255,160,160"
+"Colour19"="255,215,0"
+"Colour20"="245,222,179"
+"Colour21"="255,255,255"
